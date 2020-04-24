@@ -24,4 +24,4 @@ For Mac: https://developer.cisco.com/learning/lab/dev-mac/step/1
 ## Python Libraries required for the project
 Before using the script, please, install the following libraries:
 
-Command: “pip install <library-name>”
+Command: “pip install {library-name}”
