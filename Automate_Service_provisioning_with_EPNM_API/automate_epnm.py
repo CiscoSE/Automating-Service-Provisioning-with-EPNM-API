@@ -198,7 +198,7 @@ __license__ = "Cisco Sample Code License, Version 1.1"
 indent = 4
 print("\n\n",
     __doc__,
-    "Author:",
+    "\nAuthor:",
     " " * indent + __author__,
     __copyright__,
     "Licensed Under: " + __license__ +'\n',
