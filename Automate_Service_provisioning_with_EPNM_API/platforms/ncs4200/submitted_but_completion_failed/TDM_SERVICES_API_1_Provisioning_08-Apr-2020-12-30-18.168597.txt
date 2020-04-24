@@ -1,0 +1,26 @@
+{
+    "com.response-message": {
+        "com.header": {
+            "com.firstIndex": 0,
+            "com.lastIndex": 0
+        },
+        "com.data": {
+            "saext.provision-service-request": {
+                "request-id": "dd8f7c5f-954e-436a-b2f5-e13912b23cfa",
+                "service-name": "TDM_SERVICES_API_1",
+                "service-type": "tdm-cem",
+                "service-subtype": "t1",
+                "preview": false,
+                "request-time": "2020-04-08T12:25:40.512-05:00",
+                "completion-time": "2020-04-08T12:30:13.429-05:00",
+                "deploy-results": {
+                    "result": {
+                        "config": "ProvisioningException:Could not connect to the device :NCS4206-B.cisco.com due to timeout"
+                    }
+                },
+                "completion-status": "FAILED",
+                "error": "Deployment failed with - RunId[46617] - ProvisioningException:Could not connect to the device :NCS4206-B.cisco.com due to timeout"
+            }
+        }
+    }
+}

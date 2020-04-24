@@ -1,0 +1,26 @@
+{
+    "com.response-message": {
+        "com.header": {
+            "com.firstIndex": 0,
+            "com.lastIndex": 0
+        },
+        "com.data": {
+            "saext.provision-service-request": {
+                "request-id": "c31291d5-bbf7-479e-a987-f6a1f1d5f4b1",
+                "service-name": "TDM_CEP_SERVICES_API_6",
+                "service-type": "tdm-cem",
+                "service-subtype": "STS-1",
+                "preview": false,
+                "request-time": "2020-03-27T14:50:47.295-05:00",
+                "completion-time": "2020-03-27T14:50:48.527-05:00",
+                "deploy-results": {
+                    "result": {
+                        "config": "Pseudowire bandwidth (51136) should be less than available bandwidth (-1454528)"
+                    }
+                },
+                "completion-status": "FAILED",
+                "error": "Deployment failed with - RunId[19428] - Pseudowire bandwidth (51136) should be less than available bandwidth (-1454528)"
+            }
+        }
+    }
+}

@@ -1,0 +1,385 @@
+
+==================================
+* Service Provisioning Response:
+---------------------------------
+******************* Working with the Service: T3_on_FlexLSPonLAG_5 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_5**:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0024",
+            "error-message": "A service exist with same name."
+        }
+    }
+}
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_6 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_6**:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0024",
+            "error-message": "A service exist with same name."
+        }
+    }
+}
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_7 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_7**:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0024",
+            "error-message": "A service exist with same name."
+        }
+    }
+}
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_8 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_8**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_9 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_9**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_10 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_10**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_11 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_11**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_12 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_12**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_13 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_13**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_14 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_14**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_15 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_15**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_16 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_16**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_17 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_17**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_18 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_18**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_19 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_19**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_20 *******************
+
+Provisioning **T3_on_FlexLSPonLAG_20**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}
+
+******************* Working with the Service:  *******************
+
+Provisioning ****:
+ Request submission **FAILED** with status = 400;
+
+File: /Users/tchowdhu/PycharmProjects/Automate_Service_provisioning_with_EPNM_API/utils/epnm_request_lib.py; Line: 125
+Exception raised on POST Method: <class 'requests.exceptions.HTTPError'>
+400 Client Error:  for url: https://10.89.204.105/restconf/operations/v1/cisco-service-activation:provision-service
+{
+    "rc.errors": {
+        "error": {
+            "error-type": "application",
+            "error-tag": "invalid-value",
+            "error-app-tag": "PROV.0025",
+            "error-message": "The service-name is mandatory. Please provide it and try again."
+        }
+    }
+}

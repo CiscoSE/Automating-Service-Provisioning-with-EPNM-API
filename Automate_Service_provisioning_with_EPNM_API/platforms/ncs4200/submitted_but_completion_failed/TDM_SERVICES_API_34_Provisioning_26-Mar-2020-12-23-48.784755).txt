@@ -1,0 +1,26 @@
+{
+    "com.response-message": {
+        "com.header": {
+            "com.firstIndex": 0,
+            "com.lastIndex": 0
+        },
+        "com.data": {
+            "saext.provision-service-request": {
+                "request-id": "4a99c5cf-882e-4d2a-8e02-502bf01420a6",
+                "service-name": "TDM_SERVICES_API_34",
+                "service-type": "tdm-cem",
+                "service-subtype": "t1",
+                "preview": false,
+                "request-time": "2020-03-26T12:22:55.625-05:00",
+                "completion-time": "2020-03-26T12:23:40.360-05:00",
+                "deploy-results": {
+                    "result": {
+                        "config": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><results><result deviceId=\"601729135\" deviceName=\"NCS4206-A.cisco.com\" rollbackState=\"NOT_STARTED\" state=\"FAILED\"><config><![CDATA[controller T1 0/2/1\n  no shutdown\n  cem-group 1 framed\ninterface pseudowire4\n  encapsulation mpls\n  control-word exclude\n  neighbor 192.168.30.28 1083\n  bandwidth 1642 persistent\ninterface CEM0/2/1\n  cem 1\nl2vpn xconnect context XCon_1083_192.168.30.28\n  member pseudowire4\n  member CEM0/2/1 1\n  exit\ninterface pseudowire4\nbandwidth 2250 persistent\n]]></config><error><![CDATA[\nCommand returned an error : GenericError\nconfig t\n\nEnter configuration commands, one per line.  End with CNTL/Z.\nNCS4206-A(config)#controller T1 0/2/1\n\nNCS4206-A(config-controller)#no shutdown\n\nNCS4206-A(config-controller)#cem-group 1 framed\n\n % Remove framing unframed to configure Framed SAToP\nNCS4206-A(config-controller)#]]></error><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729138\" deviceName=\"NCS4216-B.cisco.com\" rollbackState=\"SUCCESSFUL\" state=\"SUCCESSFUL\"><config><![CDATA[controller T1 0/2/1\n  no shutdown\n  clock source internal\n  cem-group 0 framed\ninterface pseudowire30\n  encapsulation mpls\n  control-word exclude\n  neighbor 192.168.30.24 1083\n  bandwidth 1642 persistent\ninterface CEM0/2/1\n  cem 0\nl2vpn xconnect context XCon_1083_192.168.30.24\n  member pseudowire30\n  member CEM0/2/1 0\n  exit\ninterface pseudowire30\nbandwidth 2250 persistent\n]]></config><error/><rollbackConfig><![CDATA[no l2vpn xconnect context XCon_1083_192.168.30.24\nno interface pseudowire30\ncontroller T1 0/2/1\n  no cem-group 0 framed\n  no clock source internal\n]]></rollbackConfig><rollbackErrors/></result></results>"
+                    }
+                },
+                "completion-status": "FAILED",
+                "error": "Deployment failed with - RunId[1466171] - <?xml version=\"1.0\" encoding=\"UTF-8\"?><results><result deviceId=\"601729135\" deviceName=\"NCS4206-A.cisco.com\" rollbackState=\"NOT_STARTED\" state=\"FAILED\"><config><![CDATA[controller T1 0/2/1\n  no shutdown\n  cem-group 1 framed\ninterface pseudowire4\n  encapsulation mpls\n  control-word exclude\n  neighbor 192.168.30.28 1083\n  bandwidth 1642 persistent\ninterface CEM0/2/1\n  cem 1\nl2vpn xconnect context XCon_1083_192.168.30.28\n  member pseudowire4\n  member CEM0/2/1 1\n  exit\ninterface pseudowire4\nbandwidth 2250 persistent\n]]></config><error><![CDATA[\nCommand returned an error : GenericError\nconfig t\n\nEnter configuration commands, one per line.  End with CNTL/Z.\nNCS4206-A(config)#controller T1 0/2/1\n\nNCS4206-A(config-controller)#no shutdown\n\nNCS4206-A(config-controller)#cem-group 1 framed\n\n % Remove framing unframed to configure Framed SAToP\nNCS4206-A(config-controller)#]]></error><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729138\" deviceName=\"NCS4216-B.cisco.com\" rollbackState=\"SUCCESSFUL\" state=\"SUCCESSFUL\"><config><![CDATA[controller T1 0/2/1\n  no shutdown\n  clock source internal\n  cem-group 0 framed\ninterface pseudowire30\n  encapsulation mpls\n  control-word exclude\n  neighbor 192.168.30.24 1083\n  bandwidth 1642 persistent\ninterface CEM0/2/1\n  cem 0\nl2vpn xconnect context XCon_1083_192.168.30.24\n  member pseudowire30\n  member CEM0/2/1 0\n  exit\ninterface pseudowire30\nbandwidth 2250 persistent\n]]></config><error/><rollbackConfig><![CDATA[no l2vpn xconnect context XCon_1083_192.168.30.24\nno interface pseudowire30\ncontroller T1 0/2/1\n  no cem-group 0 framed\n  no clock source internal\n]]></rollbackConfig><rollbackErrors/></result></results>"
+            }
+        }
+    }
+}

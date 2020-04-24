@@ -1,0 +1,9 @@
+
+==================================
+* Service Deletion Response:
+---------------------------------
+******************* Working with the Service: TDM_SERVICES_API_1 *******************
+
+Deleting **TDM_SERVICES_API_1**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**

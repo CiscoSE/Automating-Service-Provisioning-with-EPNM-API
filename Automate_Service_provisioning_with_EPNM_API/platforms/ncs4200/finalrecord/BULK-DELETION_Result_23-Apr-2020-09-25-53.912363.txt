@@ -1,0 +1,99 @@
+
+==================================
+* Service Deletion Response:
+---------------------------------
+******************* Working with the Service: T3_on_FlexLSPonLAG_5 *******************
+
+Deleting **T3_on_FlexLSPonLAG_5**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_6 *******************
+
+Deleting **T3_on_FlexLSPonLAG_6**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_7 *******************
+
+Deleting **T3_on_FlexLSPonLAG_7**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_8 *******************
+
+Deleting **T3_on_FlexLSPonLAG_8**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_9 *******************
+
+Deleting **T3_on_FlexLSPonLAG_9**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_10 *******************
+
+Deleting **T3_on_FlexLSPonLAG_10**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_11 *******************
+
+Deleting **T3_on_FlexLSPonLAG_11**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_12 *******************
+
+Deleting **T3_on_FlexLSPonLAG_12**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_13 *******************
+
+Deleting **T3_on_FlexLSPonLAG_13**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_14 *******************
+
+Deleting **T3_on_FlexLSPonLAG_14**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_15 *******************
+
+Deleting **T3_on_FlexLSPonLAG_15**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_16 *******************
+
+Deleting **T3_on_FlexLSPonLAG_16**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_17 *******************
+
+Deleting **T3_on_FlexLSPonLAG_17**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_18 *******************
+
+Deleting **T3_on_FlexLSPonLAG_18**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_19 *******************
+
+Deleting **T3_on_FlexLSPonLAG_19**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: T3_on_FlexLSPonLAG_20 *******************
+
+Deleting **T3_on_FlexLSPonLAG_20**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**

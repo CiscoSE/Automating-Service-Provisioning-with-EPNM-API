@@ -1,0 +1,26 @@
+{
+    "com.response-message": {
+        "com.header": {
+            "com.firstIndex": 0,
+            "com.lastIndex": 0
+        },
+        "com.data": {
+            "saext.terminate-service-request": {
+                "request-id": "62584ec2-b26d-4a2c-ae83-18db3425e5f2",
+                "service-name": "TDM_CEP_SERVICES_API_4",
+                "service-type": "tdm-cem",
+                "service-subtype": "STS-12c",
+                "preview": false,
+                "request-time": "2020-03-26T23:07:56.442-05:00",
+                "completion-time": "2020-03-26T23:08:20.570-05:00",
+                "deploy-results": {
+                    "result": {
+                        "config": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><results><result deviceId=\"601729137\" deviceName=\"NCS4206-C.cisco.com\" rollbackState=\"NOT_STARTED\" state=\"SUCCESSFUL\"><config><![CDATA[controller SONET 0/4/1\nno sts-1 1 - 12\ncontroller SONET 0/5/1\nno sts-1 13 - 24\n]]></config><error/><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729136\" deviceName=\"NCS4206-B.cisco.com\" rollbackState=\"NOT_STARTED\" state=\"FAILED\"><config><![CDATA[controller SONET 0/5/1\nno sts-1 1 - 12\ncontroller SONET 0/4/1\nno sts-1 1 - 12\n]]></config><error><![CDATA[\nCommand returned an error : GenericError\nconfig t\n\nEnter configuration commands, one per line.  End with CNTL/Z.\nNCS4206-B(config)#controller SONET 0/5/1\n\nNCS4206-B(config-controller)#no sts-1 1 - 12\n\n%Remove UPSR configuration to unconfigure.\n%Unprovisioning failed.1\nNCS4206-B(config-controller)#]]></error><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729137\" deviceName=\"NCS4206-C.cisco.com\" rollbackState=\"NOT_APPLICABLE\" state=\"SUCCESSFUL\"><config><![CDATA[controller SONET 0/4/1\nno sts-1 1 - 12\ncontroller SONET 0/5/1\nno sts-1 13 - 24\n]]></config><error/><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729136\" deviceName=\"NCS4206-B.cisco.com\" rollbackState=\"NOT_APPLICABLE\" state=\"SUCCESSFUL\"><config><![CDATA[controller SONET 0/5/1\nno sts-1 1 - 12\ncontroller SONET 0/4/1\nno sts-1 1 - 12\n]]></config><error/><rollbackConfig/><rollbackErrors/></result></results>"
+                    }
+                },
+                "completion-status": "FAILED",
+                "error": "Deployment failed with - RunId[1509448] - <?xml version=\"1.0\" encoding=\"UTF-8\"?><results><result deviceId=\"601729137\" deviceName=\"NCS4206-C.cisco.com\" rollbackState=\"NOT_STARTED\" state=\"SUCCESSFUL\"><config><![CDATA[controller SONET 0/4/1\nno sts-1 1 - 12\ncontroller SONET 0/5/1\nno sts-1 13 - 24\n]]></config><error/><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729136\" deviceName=\"NCS4206-B.cisco.com\" rollbackState=\"NOT_STARTED\" state=\"FAILED\"><config><![CDATA[controller SONET 0/5/1\nno sts-1 1 - 12\ncontroller SONET 0/4/1\nno sts-1 1 - 12\n]]></config><error><![CDATA[\nCommand returned an error : GenericError\nconfig t\n\nEnter configuration commands, one per line.  End with CNTL/Z.\nNCS4206-B(config)#controller SONET 0/5/1\n\nNCS4206-B(config-controller)#no sts-1 1 - 12\n\n%Remove UPSR configuration to unconfigure.\n%Unprovisioning failed.1\nNCS4206-B(config-controller)#]]></error><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729137\" deviceName=\"NCS4206-C.cisco.com\" rollbackState=\"NOT_APPLICABLE\" state=\"SUCCESSFUL\"><config><![CDATA[controller SONET 0/4/1\nno sts-1 1 - 12\ncontroller SONET 0/5/1\nno sts-1 13 - 24\n]]></config><error/><rollbackConfig/><rollbackErrors/></result><result deviceId=\"601729136\" deviceName=\"NCS4206-B.cisco.com\" rollbackState=\"NOT_APPLICABLE\" state=\"SUCCESSFUL\"><config><![CDATA[controller SONET 0/5/1\nno sts-1 1 - 12\ncontroller SONET 0/4/1\nno sts-1 1 - 12\n]]></config><error/><rollbackConfig/><rollbackErrors/></result></results>"
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+
+==================================
+* Service Deletion Response:
+---------------------------------
+******************* Working with the Service: TDM_CEP_SERVICES_API_1 *******************
+
+Deleting **TDM_CEP_SERVICES_API_1**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: TDM_CEP_SERVICES_API_2 *******************
+
+Deleting **TDM_CEP_SERVICES_API_2**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: TDM_CEP_SERVICES_API_3 *******************
+
+Deleting **TDM_CEP_SERVICES_API_3**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: TDM_CEP_SERVICES_API_4 *******************
+
+Deleting **TDM_CEP_SERVICES_API_4**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: TDM_CEP_SERVICES_API_5 *******************
+
+Deleting **TDM_CEP_SERVICES_API_5**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: TDM_CEP_SERVICES_API_6 *******************
+
+Deleting **TDM_CEP_SERVICES_API_6**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**
+
+******************* Working with the Service: TDM_CEP_SERVICES_API_7 *******************
+
+Deleting **TDM_CEP_SERVICES_API_7**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Deleting Status: **SUCCESS**

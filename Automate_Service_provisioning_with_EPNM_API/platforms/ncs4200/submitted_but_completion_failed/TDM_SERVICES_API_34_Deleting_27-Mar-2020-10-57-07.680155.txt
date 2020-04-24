@@ -1,0 +1,32 @@
+{
+    "com.response-message": {
+        "com.header": {
+            "com.firstIndex": 0,
+            "com.lastIndex": 0
+        },
+        "com.data": {
+            "saext.terminate-service-request": {
+                "request-id": "25d50ab1-5f41-47e2-a8bd-2af0988484ff",
+                "service-name": "TDM_SERVICES_API_34",
+                "service-type": "tdm-cem",
+                "service-subtype": "t1",
+                "preview": false,
+                "request-time": "2020-03-27T10:56:34.908-05:00",
+                "completion-time": "2020-03-27T10:57:01.921-05:00",
+                "deploy-results": {
+                    "result": [
+                        {
+                            "node-ref": "MD=CISCO_EPNM!ND=NCS4216-B.cisco.com",
+                            "state": "NOT_STARTED"
+                        },
+                        {
+                            "node-ref": "MD=CISCO_EPNM!ND=NCS4206-A.cisco.com",
+                            "state": "NOT_STARTED"
+                        }
+                    ]
+                },
+                "completion-status": "FAILED"
+            }
+        }
+    }
+}

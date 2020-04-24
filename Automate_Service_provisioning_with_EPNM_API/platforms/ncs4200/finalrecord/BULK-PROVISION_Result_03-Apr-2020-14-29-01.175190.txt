@@ -1,0 +1,9 @@
+
+==================================
+* Service Provisioning Response:
+---------------------------------
+******************* Working with the Service: TDM_SERVICES_API_1 *******************
+
+Provisioning **TDM_SERVICES_API_1**:
+ Request submission is **SUCCESSFUL** with status code = 200;
+Provisioning Status: **SUCCESS**

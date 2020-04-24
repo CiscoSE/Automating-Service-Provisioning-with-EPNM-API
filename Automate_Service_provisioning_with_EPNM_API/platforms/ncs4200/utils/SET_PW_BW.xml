@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><ootb-template>
+    <template-metadata name="SET_PW_BW">
+        <template-details>
+            <description/>
+            <author>root</author>
+            <tag-list/><tag-list/>
+        </template-details>
+        <parameter-metadata>
+            <param-group cliName="cli command set" isMandatory="true" name="SET_PW_BW parameters">
+                <description>Parameters for SET_PW_BW</description>
+                <parameter name="Bandwidth">
+                    <description>Bandwidth</description>
+                    <default-value label="Enter Pseudowire Bandwidth"/>
+                    <data-type>Integer</data-type>
+                    <mandatory>true</mandatory>
+                    <isGlobal>false</isGlobal>
+                    <syntax>
+                        <pattern/>
+                    </syntax>
+                    <isGlobalVariable>false</isGlobalVariable>
+                </parameter>
+                <parameter name="gv.service-cem-pwInterfaceName">
+                    <description>gv.service-cem-pwInterfaceName</description>
+                    <default-value label="Pseudowire Interface ID">Not Available</default-value>
+                    <data-type>String</data-type>
+                    <mandatory>false</mandatory>
+                    <isGlobal>false</isGlobal>
+                    <syntax>
+                        <min>10</min>
+                        <max>100</max>
+                    </syntax>
+                    <isGlobalVariable>true</isGlobalVariable>
+                </parameter>
+            </param-group>
+        </parameter-metadata>
+    </template-metadata>
+    <config platform="">
+        <device-filtering-details>
+            <family value="Optical Networking/Cisco Network Convergence System 4200 Series">
+                <min-supported-imageversion value=""/>
+            </family>
+        </device-filtering-details>
+        <cli name="cli command set">
+            <clicommand>interface pseudowire$gv.service-cem-pwInterfaceName
+ bandwidth $Bandwidth persistent
+
+
+
+
+</clicommand>
+        </cli>
+    </config>
+</ootb-template>
