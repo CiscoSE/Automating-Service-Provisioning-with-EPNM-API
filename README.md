@@ -20,3 +20,8 @@ For Ubuntu: https://developer.cisco.com/learning/lab/dev-ubuntu/step/1
 For Windows: https://developer.cisco.com/learning/lab/dev-win/step/1
 
 For Mac: https://developer.cisco.com/learning/lab/dev-mac/step/1
+
+## Python Libraries required for the project
+Before using the script, please, install the following libraries:
+
+Command: “pip install <library-name>”
