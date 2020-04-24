@@ -39,8 +39,7 @@ if __name__ == '__main__':
 
 __author__ = "Tahsin Chowdhury <tchowdhu@cisco.com>"
 __contributors__ = [
-    "Tahsin Chowdhury <tchowdhu@cisco.com>",
-    "Rex Spell <rspell@cisco.com>",
+    "Tahsin Chowdhury <tchowdhu@cisco.com>"
 ]
 __copyright__ = "Copyright (c) 2020 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
