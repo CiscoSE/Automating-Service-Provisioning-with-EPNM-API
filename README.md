@@ -10,7 +10,7 @@ This has been done to provide a positive mindset to the users that the concept o
 
 ## Summarized Work-Flow:
 
-![Alt text](images/exampleData.png?raw=true "ExampleExcelData")
+![Alt text](UserDocument/Automate_with_EPNM_API_WorkFlow.jpg?raw=true "Automate_with_EPNM_API_WorkFlow")
 
 ## User Guideline
 For a detailed guideline, please read the user manual included in the UserDocument folder.
