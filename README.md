@@ -31,3 +31,7 @@ Before using the script, please, install the following libraries:</br>
   wxPython</br>
 
 Command: “pip3 install {library-name}”
+
+## Contributors
+Tahsin Chowdhury <tchowdhu@cisco.com>
+Rex Spell <rspell@cisco.com>
