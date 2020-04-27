@@ -8,6 +8,11 @@ Later, we also have included EPL service provisioning with minimum required opti
 
 This has been done to provide a positive mindset to the users that the concept of the project can be utilized for various network platforms supported in EPNM.
 
+## Summarized Work-Flow:
+
+![Alt text](images/exampleData.png?raw=true "ExampleExcelData")
+
+## User Guideline
 For a detailed guideline, please read the user manual included in the UserDocument folder.
 https://github.com/CiscoSE/Automating-Service-Provisioning-with-EPNM-API/tree/master/UserDocument
 
