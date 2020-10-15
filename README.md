@@ -26,16 +26,17 @@ For Windows: https://developer.cisco.com/learning/lab/dev-win/step/1
 
 For Mac: https://developer.cisco.com/learning/lab/dev-mac/step/1
 
-## Python Libraries required for the project
-Before using the script, please, install the following libraries:</br>
-  click,</br>
-  requests,</br>
-  pandas,</br>
-  urllib3,</br>
-  xlrd,</br>
-  wxPython</br>
+## Usage
 
-Command: “pip3 install {library-name}”
+1. Clone the project to your work station.
+
+    <br> git clone https://github.com/CiscoSE/Automating-Service-Provisioning-with-EPNM-API.git </br>
+
+2. Install required dependencies. 
+
+    <br> pip install -r requirements.txt </br>
+
+3. Follow the user guideline to use the script.
 
 ## Contributors
 Tahsin Chowdhury <tchowdhu@cisco.com> </br>
