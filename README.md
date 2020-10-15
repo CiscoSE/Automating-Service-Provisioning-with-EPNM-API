@@ -10,7 +10,7 @@ This has been done to provide a positive mindset to the users that the concept o
 
 ## Summarized Work-Flow:
 
-<img src="UserDocument/Automate_with_EPNM_API_Workflow.jpg"/>
+![Work Flow Image](./UserDocument/Automate_with_EPNM_API_Workflow.jpg)
 
 ## User Guideline
 For a detailed guideline, please read the user manual included in the UserDocument folder.
