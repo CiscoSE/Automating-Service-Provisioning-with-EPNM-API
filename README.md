@@ -28,11 +28,11 @@ For Mac: https://developer.cisco.com/learning/lab/dev-mac/step/1
 
 ## Usage
 
-1. Clone the project to your work station.
-    <br> git clone https://github.com/CiscoSE/Automating-Service-Provisioning-with-EPNM-API.git </br>
+1. Clone the project to your work station.</br>
+    <br> **git clone https://github.com/CiscoSE/Automating-Service-Provisioning-with-EPNM-API.git** </br>
 
-2. Install required dependencies. 
-    <br> pip install -r requirements.txt </br>
+2. Install required dependencies.</br>
+    <br> **pip install -r requirements.txt** </br>
 
 3. Follow the user guideline to use the script.
 
