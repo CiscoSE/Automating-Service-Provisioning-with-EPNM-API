@@ -18,7 +18,7 @@ https://github.com/CiscoSE/Automating-Service-Provisioning-with-EPNM-API/tree/ma
 
 ## Enviroment Setup
 
-For this project Python3.7.6 has been used. Please, follow the intructions given below to setup your environment.
+For this project, Python3.7.6 has been used (also verified with verion 3.8.5). Please, follow the intructions given below to setup your environment.
 
 For Ubuntu: https://developer.cisco.com/learning/lab/dev-ubuntu/step/1
 
