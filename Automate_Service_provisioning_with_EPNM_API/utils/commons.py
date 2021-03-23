@@ -38,7 +38,8 @@ headers = {
 * users can add more resources based on the specific task
 """
 BASE_EPNM_URL = "https://{}/"
-WEBACS_RESOURCE = "webacs/api/v1/"
+# 03/09/2021 changed v1 to v4 for webacs resource
+WEBACS_RESOURCE = "webacs/api/v4/"
 RESTCONF_OPERATION_RESOURSE = "restconf/operations/v1/"
 RESTCONF_DATA_RESOURCE = "restconf/data/v1/"
 VERSION_RESOURCE = "op/info/version"

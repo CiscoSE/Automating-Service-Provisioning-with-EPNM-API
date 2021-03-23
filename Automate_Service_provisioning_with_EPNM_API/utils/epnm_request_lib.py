@@ -21,7 +21,7 @@ import requests
 from utils.commons import *
 from requests.auth import HTTPBasicAuth
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
+urllib3.disable_warnings()
 
 """
 * Class that handles EPNM handler for Northboud API call

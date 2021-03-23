@@ -32,7 +32,7 @@ def get_data_from_excel(filename, sheetname):
     """
     df = {}
     try:
-        df = pd.read_excel(filename, sheet_name=sheetname)
+        df = pd.read_excel(filename, sheet_name=sheetname, engine='openpyxl')
     except Exception as e:
         print('File:', __file__, ';Line:', sys._getframe().f_lineno)
         print("Exception Raised while selecting data: ", type(str(e)))
