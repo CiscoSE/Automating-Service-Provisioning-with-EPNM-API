@@ -171,9 +171,47 @@ def forwarding_path_template(preferred_path_name, is_create_new_path=False):
         }
         return template
     else:
-        pass  # Will implement later
         #########
-        ### Code to be added
+        template = {
+                "sa.pseudowire-settings": {
+                    "sa.enable-control-word": "true",
+                    "sa.fallback-to-ldp": "true"
+                },
+                "sa.mpls-te-data": {
+                    "sa.te-tunnel-type": "bi-directional",
+                    "sa.wrap-protection": "true",
+                    "sa.protection-type": "Working+Protected",
+                    "sa.enable-fault-oam": "true",
+                    "sa.enable-frr": "false",
+                    "sa.enable-auto-bandwidth": "false",
+                    "sa.enable-autoroute": "true",
+                    "sa.tunnel-setting": {
+                        "sa.setup-priority": 7,
+                        "sa.hold-priority": 7,
+                        "sa.bandwidth-pool-type": "Global"
+                    },
+                    "sa.bfd-settings": {
+                        "sa.enable": "true",
+                        "sa.min-interval": 10,
+                        "sa.multiplier": 3
+                    }
+
+                },
+                "sa.mpls-te-path-options": {
+                    "sa.working-path": {
+                        "sa.path-type": "dynamic",
+                        "sa.enable-lockdown": "true",
+                        "sa.enable-sticky": "true",
+                        "sa.new-lsp-attribute-list": "false"
+                    },
+                    "sa.protection-path": {
+                        "sa.path-type": "dynamic",
+                        "sa.enable-non-revertive": "true",
+                        "sa.new-lsp-attribute-list": "false"
+                    }
+                }
+        }
+        return template
         #########
 
 """
@@ -328,9 +366,13 @@ def Create_SATOP_Service_Commands(pw_service_name,
     """
     * Adding forwarding path section in the template
     """
-    if (preferred_path_name != None and preferred_path_name != '' and preferred_path_name != ""):
+    if is_create_new_path:
         path_data = forwarding_path_template(preferred_path_name, is_create_new_path)
         if path_data != None: SATOP_Template["sa.service-order-data"]["sa.forwarding-path"] = path_data
+    else:
+        if (preferred_path_name != None and preferred_path_name != '' and preferred_path_name != ""):
+            path_data = forwarding_path_template(preferred_path_name, is_create_new_path)
+            if path_data != None: SATOP_Template["sa.service-order-data"]["sa.forwarding-path"] = path_data
 
     """
     * Adding EPNM-templates (post-config) section in the template

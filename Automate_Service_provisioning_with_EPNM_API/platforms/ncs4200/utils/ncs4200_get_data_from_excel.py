@@ -27,11 +27,11 @@ def ncs4200_get_data_from_excel(filename, select_satop_or_cep):
     df = {}
     try:
         if select_satop_or_cep.upper() == 'SATOP':
-            df = pd.read_excel(filename, sheet_name='satop')
+            df = pd.read_excel(filename, sheet_name='satop', engine='openpyxl')
         elif select_satop_or_cep.upper() == "CEP":
-            df = pd.read_excel(filename, sheet_name='cep')
+            df = pd.read_excel(filename, sheet_name='cep', engine='openpyxl')
         elif select_satop_or_cep.upper() == "CEP-UPSR":
-            df = pd.read_excel(filename, sheet_name='cep-upsr')
+            df = pd.read_excel(filename, sheet_name='cep-upsr', engine='openpyxl')
         else:
             raise Exception("Wrong Data Selection")
     except Exception as e:

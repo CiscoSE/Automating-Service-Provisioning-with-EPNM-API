@@ -182,7 +182,7 @@ class AppFrame(wx.Frame):
             self.epnm_cred_verify_field.AppendText('(OK)')
             try:
                 response = epnm_mang.json()
-                self.epnm_cred_verify_field.AppendText(';\t\t EPNM Version: {}'.format(response['mgmtResponse']['versionInfoDTO']['result']))
+                self.epnm_cred_verify_field.AppendText(';\t\t EPNM Version: {}'.format(response['mgmtResponse']['versionInfoDTO'][0]['result']))
             except:
                 self.epnm_cred_verify_field.AppendText(";\t\t Could not retrieve version")
         else:
@@ -397,7 +397,7 @@ class AppFrame(wx.Frame):
         dialog = wx.FileDialog(self, "Choose a file", os.getcwd(), "", wildcard, wx.ID_OPEN)
 
         if dialog.ShowModal() == wx.ID_OK:
-            fileConfig = dialog.GetPath()
+            fileConfig = dialog.GetPaths()[0]
             print(fileConfig)
             self.fileName.SetValue(fileConfig) # SetLabelText -> SetValue
             self.text.AppendText('\n {} is selected from Radio Box.\n'.format(self.rbox.GetStringSelection()))
