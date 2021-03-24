@@ -111,6 +111,8 @@ if file:
             validate_service_number_input(service_to_create, total_service_to_create)
 
         st.info('Set to work with {} service(s)'.format(len(total_service_to_create_list)))
+    else:
+        st.info('Set to work with {} services (all) by default'.format(total_service_to_create))
 
 
     if df.empty==False:
