@@ -5,7 +5,7 @@ cffi==1.14.3
 click==7.1.2
 cryptography==3.1.1
 Django==1.8.3
-django-debug-toolbar==1.4
+django-debug-toolbar==1.11.1
 docutils==0.16
 ecdsa==0.13
 enum34==1.1.3
